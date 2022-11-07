@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: eks-devops
-          image: 538648446500.dkr.ecr.us-west-2.amazonaws.com/eks-devops-practise
+          image: 538648446500.dkr.ecr.us-west-2.amazonaws.com/eks-devops-practise:latest
           ports:
             - containerPort: 80
